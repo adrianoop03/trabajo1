@@ -30,4 +30,4 @@
 # aportes por integrantes 
   adriano oyola app base, servidor , base de datos , verificacion de conexion, routes o rutas
   
-  Gregorio Bizzotto : modelos vehiculos,cliente, ubicacion
+  Gregorio Bizzotto : modelos vehiculos,cliente, ubicacion y controllers
