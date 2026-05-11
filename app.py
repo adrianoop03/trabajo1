@@ -5,7 +5,7 @@ from routes.Locations_routes import locations_bp
 from routes.Vehiculos_routes import vehiculos_bp
 from models.db import db
 from sqlalchemy.exc import OperationalError
-from sqlalchemy_utils import database_exists, create_database
+
 
 app = Flask(__name__)
 
@@ -34,9 +34,9 @@ def hello_world():
     return 'Hello, World!'
 
 with app.app_context():
-    from models.client import Client
-    from models.vehicle import Vehicle
-    from models.location import Location
+    from models.client import client
+    from models.vehicle import vehicle
+    from models.location import location
     # db.drop_all()
     db.create_all()
 
