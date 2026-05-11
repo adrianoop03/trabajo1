@@ -1,7 +1,8 @@
 ﻿# Estacionamiento El Santo
 # Integantes: Bizzotto Gregorio, Oyola Adriano
-# Esta app es una estacionamiento autonomo,permitiendo que los precios se calculen
-# automaticamente dependiendo vehiculo y tiempo ocupando un espacio vehicular
+# Descripcion
+   Esta app es una estacionamiento autonomo,permitiendo que los precios se calculen
+   automaticamente dependiendo vehiculo y tiempo ocupando un espacio vehicular
 # requisitos 
   .python3 
   .mysql
@@ -21,5 +22,5 @@
 # 5 ejecucion 
   python app.py
 # aportes por integrantes 
-# adriano oyola app base, servidor , base de datos , verificacion de conexion, routes o rutas
-# Gregorio Bizzotto : modelos vehiculos,cliente, ubicacion
+  adriano oyola app base, servidor , base de datos , verificacion de conexion, routes o rutas
+  Gregorio Bizzotto : modelos vehiculos,cliente, ubicacion
