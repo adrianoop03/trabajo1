@@ -16,16 +16,7 @@ app.register_blueprint(vehiculos_bp)
 app.config["SQLALCHEMY_DATABASE_URI"]        = DATABASE_CONNECTION_URI
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
-try:
-    if not database_exists(DATABASE_CONNECTION_URI):
-        print("Base de datos no encontrada! \nCreando base de datos...")
-        create_database(DATABASE_CONNECTION_URI)
-        print("Base de datos creada!")
-except OperationalError:
-    print("Error de conexión a la base de datos. Verifique que las credenciales sean correctas y la configuración.")
-    exit()
-except Exception:
-    print("Error al crear la base de datos")
+
 
 db.init_app(app)
 

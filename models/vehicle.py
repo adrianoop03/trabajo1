@@ -11,7 +11,8 @@ class vehicle(db.Model):
     color = db.Column(db.String(100), nullable=False)
     cilindrada = db.Column(db.Integer, nullable=False)
 
-    def __init__(self, marca, modelo, nombre, puertas, color, cilindrada):
+    def __init__(self, patente, marca, modelo, nombre, puertas, color, cilindrada):
+        self.patente = patente
         self.marca = marca
         self.modelo = modelo
         self.nombre = nombre
