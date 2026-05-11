@@ -23,4 +23,5 @@
   python app.py
 # aportes por integrantes 
   adriano oyola app base, servidor , base de datos , verificacion de conexion, routes o rutas
+  
   Gregorio Bizzotto : modelos vehiculos,cliente, ubicacion
